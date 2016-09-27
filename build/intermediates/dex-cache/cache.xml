@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_a3e77833b0135ef23b8a2eef70bef817ef705360/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eb26e6e2f14618e2eb338b1729d42ad943d7247a">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a3b20655cfffb9f2bff68f2f09fb7af9e9366d7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_1385bd96f966abbe7721c3195248eba5ddc3dcd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_59ec88b1d2ee9de2ce51f98756a676446f5a2123/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="69020bb2f6a50140eb82495d1ed7ec23033f4f71">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_470180ed0866d112428f4621eb341d7c75dc10ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_74a0e3ea417af9311586916523ea147eed05db2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_9b8f51e72f61da453e72c4acef98f31b252aa710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/pedro/Dev/Android/android-didufeelit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_6a90e258a6f8fb75354d9cc7b976c0cbf0c91c43/classes.dex" />
+    </item>
+
+</items>
