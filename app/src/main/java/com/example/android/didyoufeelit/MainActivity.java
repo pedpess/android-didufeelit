@@ -26,7 +26,9 @@ import android.widget.TextView;
  */
 public class MainActivity extends AppCompatActivity {
 
-    /** URL for earthquake data from the USGS dataset */
+    /**
+     * URL for earthquake data from the USGS dataset
+     */
     private static final String USGS_REQUEST_URL =
             "http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2016-01-01&endtime=2016-05-02&minfelt=50&minmagnitude=5";
 
@@ -34,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
 
         EarthquakeAsyncTask task = new EarthquakeAsyncTask();
@@ -60,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Event doInBackground(String... urls) {
+
+            if (urls.length < 1 || urls[0] == null) {
+                return null;
+            }
+
             // Perform the HTTP request for earthquake data and process the response.
             Event result = Utils.fetchEarthquakeData(urls[0]);
             return result;
@@ -67,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Event result) {
+            if (result == null) {
+                return;
+            }
+
             updateUi(result);
         }
     }
